@@ -1,2 +1,1 @@
-# ez-skid
-dang
+dang w did?
