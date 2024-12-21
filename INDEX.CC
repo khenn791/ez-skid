@@ -107,7 +107,7 @@ local function PlayThatBitch()
         imageLabel.Parent = frame
         imageLabel.Size = UDim2.new(0.01, 0, 0.01, 0)  
         imageLabel.Position = UDim2.new(0.5, -0.1, 0.5, -0.1) 
-        imageLabel.Image = "rbxassetid://112145365919652"
+        imageLabel.Image = "rbxassetid://94306191778376"
         imageLabel.BackgroundTransparency = 1
         imageLabel.ImageTransparency = 100
         imageLabel.AnchorPoint = Vector2.new(0.5, 0.5)
@@ -669,7 +669,7 @@ wait(1)
 local ThemeManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/khen791/libraryskibidi/refs/heads/main/ThemeManager.lua.txt"))()
 local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/khen791/libraryskibidi/refs/heads/main/SaveManager.lua.txt"))()
 local Window = Library:CreateWindow({
-    Title = 'Index.cc mobile [Leak]',
+    Title = 'Index.cc [Leak] [khen.cc]',
     Center = true,
     AutoShow = true,
     TabPadding = 8,
