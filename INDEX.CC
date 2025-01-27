@@ -20,10 +20,10 @@ getgenv().KingVon = {
     },
     ["CamOrientation"] = {
         ["Enabled"] = false,
-        ["GroundPrediction"] = 0.1,
+        ["GroundPrediction"] = 0.14829,
         ["AirPrediction"] = 0.1,
-        ["GroundSmoothness"] = 0.1,
-        ["AirSmoothness"] = 0.1,
+        ["GroundSmoothness"] = 0.7,
+        ["AirSmoothness"] = 0.2,
         ["EasingStyle"] = Enum.EasingStyle.Linear,
     },
     ["Visuals"] = {
@@ -107,7 +107,7 @@ local function PlayThatBitch()
         imageLabel.Parent = frame
         imageLabel.Size = UDim2.new(0.01, 0, 0.01, 0)  
         imageLabel.Position = UDim2.new(0.5, -0.1, 0.5, -0.1) 
-        imageLabel.Image = "rbxassetid://94306191778376"
+        imageLabel.Image = "rbxassetid://112145365919652"
         imageLabel.BackgroundTransparency = 1
         imageLabel.ImageTransparency = 100
         imageLabel.AnchorPoint = Vector2.new(0.5, 0.5)
@@ -669,7 +669,7 @@ wait(1)
 local ThemeManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/khen791/libraryskibidi/refs/heads/main/ThemeManager.lua.txt"))()
 local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/khen791/libraryskibidi/refs/heads/main/SaveManager.lua.txt"))()
 local Window = Library:CreateWindow({
-    Title = 'Index.cc [Leak] [khen.cc]',
+    Title = 'Index.cc mobile [Leak]',
     Center = true,
     AutoShow = true,
     TabPadding = 8,
@@ -805,7 +805,7 @@ aimbot:AddButton({
         toggleButton.Parent = screenGui
         toggleButton.Size = UDim2.new(0, 100, 0, 100)
         toggleButton.Position = UDim2.new(0, 100, 0.15, 0)
-        toggleButton.Image = "rbxassetid://123432768009354"
+        toggleButton.Image = "rbxassetid://107443369518904"
         toggleButton.BackgroundTransparency = 1
         currentPosition = toggleButton.Position
 
@@ -1486,7 +1486,7 @@ utilities:AddButton({
 
         local button = Instance.new("ImageButton")
         button.Name = "CFrameButton"
-        button.Image = "rbxassetid://136981484761911"
+        button.Image = "rbxassetid://117004953332715"
         button.Size = UDim2.new(0, 100, 0, 100)
         button.Position = UDim2.new(0, 10, 0, 10)
         button.BackgroundTransparency = 1
@@ -1808,7 +1808,7 @@ buttonFrame.Parent = macroGui
 
 local button = Instance.new("ImageButton")
 button.Name = "MacroButton"
-button.Image = "rbxassetid://71767288014463"
+button.Image = "rbxassetid://80622369217820"
 button.Size = UDim2.new(0, 100, 0, 100)
 button.Position = UDim2.new(0, 10, 0, 10)
 button.BackgroundTransparency = 1
@@ -2003,7 +2003,7 @@ if scriptEnabled then
     local toggleButton = Instance.new("ImageButton")
     toggleButton.Size = UDim2.new(0, 150, 0, 50)
     toggleButton.Position = UDim2.new(0.5, -75, 0.8, 0)
-    toggleButton.Image = "rbxassetid://75971202867459"
+    toggleButton.Image = "rbxassetid://100507019817467"
     toggleButton.Parent = drank
 
     local dragging = false
@@ -2100,4 +2100,6 @@ ThemeManager:ApplyToTab(Tabs['UI Settings'])
 -- which has been marked to be one that auto loads!
 SaveManager:LoadAutoloadConfig()
 
+warn("FIX BY KHEN.CC")
 
+print("EZZZ")
