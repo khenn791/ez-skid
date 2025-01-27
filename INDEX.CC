@@ -1,6 +1,3 @@
---// fix library and rename by ezskid.278
---// lol
-
 loadstring([[
     function LPH_NO_VIRTUALIZE(f) return f end;
 ]])(); 
